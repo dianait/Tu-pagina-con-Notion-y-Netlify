@@ -1,0 +1,25 @@
+name: Netlify deploy action
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 */6 * * *
+
+jobs:
+  downloadStatus:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js version 14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - run: npm install
+      - run: npm run deploy
+      - run: |
+          git config user.name dianait
+          git config user.email dianahdezsoler@gmail.com
+          git add .
+          git commit -m "Add report for today"
+          git push
