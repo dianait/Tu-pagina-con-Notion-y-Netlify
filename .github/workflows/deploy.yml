@@ -1,5 +1,5 @@
 
-name: Download latest COVID-19 Status vaccination
+name: Tutorial update
 
 on:
   workflow_dispatch:
