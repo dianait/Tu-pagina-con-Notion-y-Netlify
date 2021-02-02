@@ -1,4 +1,4 @@
-name: Netlify deploy action
+name: update & deploy action
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   downloadStatus:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu
 
     steps:
     - uses: actions/checkout@v2
