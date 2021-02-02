@@ -6,8 +6,8 @@ on:
     - cron: 0 */6 * * *
 
 jobs:
-  downloadStatus:
-    runs-on: ubuntu
+  updateStatus:
+    runs-on: ubuntu-16.04
 
     steps:
     - uses: actions/checkout@v2
