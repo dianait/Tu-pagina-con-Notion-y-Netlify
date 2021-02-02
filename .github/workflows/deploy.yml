@@ -1,4 +1,5 @@
-name: update & deploy action
+
+name: Download latest COVID-19 Status vaccination
 
 on:
   workflow_dispatch:
@@ -6,17 +7,20 @@ on:
     - cron: 0 */6 * * *
 
 jobs:
-  updateStatus:
-    runs-on: ubuntu-16.04
+  downloadStatus:
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
-
+    - name: Use Node.js version 14.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 14.x
     - run: npm install
-    - run: node ./scripts/deploy.js
+    - run: npm run deploy
     - run: |
         git config user.name dianait
         git config user.email dianahdezsoler@gmail.com
         git add .
-        git commit -m "tutorial updated"
+        git commit -m "Tutorial updated"
         git push
