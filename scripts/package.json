@@ -1,10 +1,16 @@
 {
-  "name": "scripts",
+  "name": "p",
   "version": "1.0.0",
-  "description": "",
-  "main": "notionToNetifly.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "export": "next export",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node scripts/main.js",
+    "lint": "standard",
+    "postinstall": "git config core.hooksPath ./git-hooks"
   },
   "author": "",
   "license": "ISC",
