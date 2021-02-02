@@ -17,6 +17,7 @@ jobs:
       with:
         node-version: 14.x
     - run: npm install
+    - run: rm index.html
     - run: npm run deploy
     - run: |
         git config --global user.name "Dianait"

@@ -4,14 +4,9 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
-    "start": "next start",
-    "export": "next export",
     "deploy": "node scripts/main.js",
-    "lint": "standard",
-    "postinstall": "git config core.hooksPath ./git-hooks"
   },
-  "author": "",
+  "author": "Dianait",
   "license": "ISC",
   "dependencies": {
     "notion-page-to-html": "^1.0.2"
