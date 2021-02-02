@@ -4,11 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: 0 */6 * * *
-
-jobs:
-  downloadStatus:
-    runs-on: ubuntu-latest
-
+    
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js version 14.x
