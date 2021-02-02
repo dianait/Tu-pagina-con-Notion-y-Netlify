@@ -20,7 +20,7 @@ jobs:
     - run: npm run deploy
     - run: |
         git config --global user.name "Dianait"
-        git config --global user.email "diahdezsoler@gmail.com"
-        git add index.html
+        git config --global user.email diahdezsoler@gmail.com
+        git add .
         git commit -m "Tutorial updated"
         git push
