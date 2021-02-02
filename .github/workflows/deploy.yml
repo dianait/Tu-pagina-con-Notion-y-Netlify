@@ -13,7 +13,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - run: npm install
-    - run: node deploy
+    - run: node ./scripts/deploy.js
     - run: |
         git config user.name dianait
         git config user.email dianahdezsoler@gmail.com
