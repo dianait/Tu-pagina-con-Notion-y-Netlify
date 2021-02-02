@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - run: npm install
-    - run: npm run deploy
+    - run: node ./scripts/deploy
     - run: |
         git config user.name dianait
         git config user.email dianahdezsoler@gmail.com
