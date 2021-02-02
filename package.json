@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "deploy": "node scripts/main.js",
+    "deploy": "node scripts/main.js"
   },
   "author": "Dianait",
   "license": "ISC",
