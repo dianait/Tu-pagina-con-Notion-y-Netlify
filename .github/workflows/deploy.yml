@@ -11,10 +11,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js version 14.x
-      uses: actions/setup-node@v1
+
     - run: npm install
-    - run: npm run deploy
+    - run: node deploy
     - run: |
         git config user.name dianait
         git config user.email dianahdezsoler@gmail.com
