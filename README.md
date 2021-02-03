@@ -4,6 +4,8 @@
 
 🧪 He hecho una prueba con un tutorial que le hice a mi hermana para que subiera su página de Notion manualmente a Netlify.
 
+👉 [Aquí podeis ver el resultado](https://dianait.github.io/Tu-pagina-con-Notion-y-Netlify/)
+
 ⚠️ Me faltan algunas cositas 
 
 - [ ]  Añadir imágenes nuevas, de momento sólo actualiza el texto
