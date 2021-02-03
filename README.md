@@ -6,9 +6,6 @@
 
 👉 [Aquí podeis ver el resultado](https://dianait.github.io/Tu-pagina-con-Notion-y-Netlify/)
 
-⚠️ Me faltan algunas cositas 
-
-- [ ]  Añadir imágenes nuevas, de momento sólo actualiza el texto
 
 👀 Podéis leer más en [mi blog](https://dianait.vercel.app/Mi-primera-GitHub-Action) o seguirme por alguno de estos lares 👇
 <p align="center"><a href="https://twitter.com/dianait_"><img src="https://github.com/DianaIT/DianaIT/blob/master/img/social/twitter.svg" alt="dianait_" width="40"/></a>
